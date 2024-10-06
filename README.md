@@ -1,5 +1,7 @@
 # RadixAI
 # Copy Right by Mahendra Ribadiya founder of www.heymate.in this is MVP 
+ Simple apko html php sql ata hai to ap ye project run kar sakte ho
+
 1. File Upload Form
 
 Create a form to allow users to upload medical images.
