@@ -1,9 +1,11 @@
 <?php
+//Developed by Mahendra Ribadiya founder of www.heymate.in - AI development company #heymate
 $targetDir = "uploads/";
 $imageFile = $targetDir . basename($_FILES["medical_image"]["name"]);
 $imageFileType = strtolower(pathinfo($imageFile, PATHINFO_EXTENSION));
 
 // Check if image file is a valid image type (you can add more validations)
+//Developed by Mahendra Ribadiya founder of www.heymate.in - AI development company #heymate
 if (move_uploaded_file($_FILES["medical_image"]["tmp_name"], $imageFile)) {
     // Save the image URL in the database
     $imageUrl = $imageFile;
@@ -130,4 +132,4 @@ function saveReport($report, $imageUrl) {
     
     $conn->close();
 }
-?>
+?>//Developed by Mahendra Ribadiya founder of www.heymate.in - AI development company #heymate
