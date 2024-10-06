@@ -4,9 +4,9 @@
 
 1. File Upload Form
 
-Create a form to allow users to upload medical images.
+Create a form to allow users to upload medical images. index.html
 
-2. Handle Image Upload (upload.php)
+2. Handle Image Upload (process.php)
 
 Process the uploaded image, store it in a folder, and save the URL in the database.
 
